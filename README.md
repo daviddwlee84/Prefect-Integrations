@@ -1,4 +1,4 @@
-# Prefect Integration
+# Prefect Integrations
 
 Show case of buttons trigger pipeline and monitor executions in Prefect.
 
@@ -33,11 +33,23 @@ Set server communication
 prefect config set PREFECT_API_URL=http://127.0.0.1:4200/api
 ```
 
-## With Streamlit
+## Examples
+
+### With Streamlit
 
 ```bash
-streamlit run WithStreamlit/example.py
+streamlit run ./WithStreamlit/example.py
 ```
+
+Goto http://localhost:8501 and press button
+
+### With Flask
+
+```bash
+python ./WithFlask/app.py
+```
+
+Goto http://127.0.0.1:5000/ and press button
 
 ## Resources
 
